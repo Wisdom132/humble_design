@@ -1,0 +1,257 @@
+* {
+    font-family: montserrat!important;
+}
+.navbar {
+    background: #000022;
+}
+.nav-link {
+    /*color:white !important;*/
+    padding-left:20px !important;
+}
+#contact_head {
+    background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/black-and-white-board-boardroom-260689.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    height:690px;
+    background-position:center center;
+}
+#meet {
+    padding-top: 250px;
+    color:white;
+}
+.contact {
+    position: relative;
+    top:60px;
+}
+.contact_lg {
+    color:#eee;
+    font-size:55px
+}
+.underline {
+    position: relative;
+    bottom:20px;
+}
+/* map overlay in the contact us page */
+.contain {
+    position: relative;
+    width: 100%;
+  }
+  
+  .mapouter {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    background: rgba(0, 0, 34, 0.9);
+    /* color:white; */
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 86%;
+    left: 72%;
+    transform: translate(-60%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  .contain:hover .mapouter {
+    opacity: 0.3;
+  }
+  
+  .contain:hover .middle {
+    opacity: 1;
+  }
+  /* ending of image overlay */
+  #quote {
+    background: #000033;
+    padding:120px 0px;
+  }
+
+  /* about us page starts here */
+  #about_head {
+    background:url('images/Vector.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    height:690px;
+    background-position:center center;
+}
+.abt_text {
+  font-size:18px;
+  text-align: justify;
+}
+#abt_text {
+  margin-top:50px;
+}
+#about_card {
+  background: #000022;
+  padding:120px 0px;
+}
+.abt_position {
+  color:gray;
+  font-size: 20px
+}
+#group16 {
+  background:url('images/Group\ 16.png');
+  background-size:cover;
+  background-position: center center;
+  height:auto;
+  padding:30px 0px;
+}
+#search {
+  background: url('images/Group\ 17.png');
+  background-size:contain;
+  background-position:center center;
+  /* height:100px; */
+}
+.subscribe {
+  background: #E28413
+}
+
+
+/* styling for works page */
+#work_head {
+  background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/work.png');
+  background-attachment: fixed;
+  background-size:cover;
+  height:690px;
+  background-position:center center;
+}
+.flex-container {
+  display: flex;
+}
+#flex-container {
+  display: flex
+}
+.view {
+  background: #000022;
+}
+#job_contact {
+  background: #000033;
+    padding:70px 0px;
+}
+.job_contact {
+  background: #07074C;
+  text-transform: uppercase
+}
+
+
+/* styling for home page */ 
+#home_head {
+  background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/home_head.png');
+  background-attachment: fixed;
+  background-size:cover;
+  height:690px;
+  background-position:center center;
+}
+.home_hero {
+  padding-top:180px;
+  font-size:43px;
+}
+.home_button {
+  background: #E28413;
+  color:white
+}
+.home_para {
+  text-align: justify;
+}
+.home_projectpara {
+  text-align:justify !important;
+}
+.rotate {
+  transform: rotate(90deg);
+  margin-right:30px;
+  color:#eee;
+  font-size: 55px;
+  bottom:90px;
+  position: relative;
+  left:30px;
+}
+.one {
+  font-size:60px;
+  left:20px;
+  bottom:10px;
+  text-align: right;
+  position: relative;
+  z-index: 100;
+}
+#project {
+  background: #000022;
+  padding:20px 0px;
+}
+.two {
+  position: relative;
+  top:60px;
+  left:50px;
+  font-size: 40px;
+}
+.two_lg {
+  color:rgba(242, 242, 242, 0.25);;
+  font-size:55px
+}
+.project_talk {
+  text-align:justify;
+}
+.portfolio_rotate {
+  transform: rotate(90deg);
+  margin-top:30px;
+  font-size:20px;
+}
+.quoted {
+  text-align: justify
+}
+
+/* styling for home project */
+.flex-item {
+  position: relative;
+  /* width: 100%; */
+}
+
+.pro_img{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* -ms-transform: translate(-50%, -50%); */
+  text-align: center;
+}
+
+.flex-item:hover .pro_img {
+  opacity: 0.3;
+}
+
+.flex-item:hover .middle1 {
+  opacity: 1;
+}
+.big_quote {
+  font-size: 80px; 
+  font-family: cursive !important;
+}
+footer ul li{
+  list-style-type: none !important;
+  color:white;
+}
+#footer {
+  background: #010116;
+}
+/* styling for blog section */
+#blog {
+  padding-top: 50px;
+}
+.postBody {
+  font-size:17px;
+}

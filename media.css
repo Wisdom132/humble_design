@@ -1,0 +1,215 @@
+@media(max-width: 320px) {
+    #home_head {
+        background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/home_head.png');
+        background-attachment: fixed;
+        background-size:cover;
+        height:530px !important;
+        background-position:center center;
+      }
+      .home_hero {
+        padding-top:150px;
+        font-size:26px !important;
+      } 
+      .home_img {
+        padding-top:20px;
+      }
+      #welcome {
+          display: none
+      }
+      .two_lg {
+        display: none
+      }
+      .two {
+        position: relative;
+        top:0px;
+        left:0px;
+        font-size: 35px;
+      }
+      .portfolio_rotate {
+        display: none;
+      }
+      .flex-container {
+          display:block;
+      }
+      .pro_img {
+          height:350px;
+          padding-bottom: 10px;
+      }
+      .contact_lg {
+       display:none
+    }
+    .contact {
+        position: relative;
+        top:10px;
+    }
+    .quoted {
+        text-align: justify
+    }
+
+    /* about page */
+     #team {
+        color:white;
+     }
+    
+     /* works page */
+     #flex-container {
+         display: block !important;
+     }
+     .work {
+         padding:10px 0px;
+         height:250px;
+         width: 100%;
+     }
+
+     /* contact us page */
+     #contact_head {
+      background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/black-and-white-board-boardroom-260689.jpg');
+      background-size:cover;
+      background-attachment: fixed;
+      height:500px;
+      background-position:center center;
+  }
+  .gmap_canvas {
+    height: 550px;
+    width: auto !important;
+}
+.mapouter {
+  height: 550px;
+  width: auto !important;
+}
+/* blog post page */
+.blog_title {
+  font-size:20px;
+  text-align: justify;
+}
+.postBody {
+  text-align: justify;
+}
+}
+@media(max-width:425px) {
+    #home_head {
+        background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/home_head.png');
+        background-attachment: fixed;
+        background-size:cover;
+        height:600px;
+        background-position:center center;
+      }
+      .home_hero {
+        padding-top:180px;
+        font-size:30px;
+      } 
+      #welcome {
+          display: none
+      }
+      .two_lg {
+        display: none
+      }
+      .two {
+        position: relative;
+        top:0px;
+        left:0px;
+        font-size: 35px;
+      }
+      .portfolio_rotate {
+        display: none;
+      }
+      .flex-container {
+        display:block;
+        padding-top:10px;
+        margin:auto !important;
+    }
+    .pro_img {
+        height:350px;
+        padding-bottom: 10px;
+    }
+    #home_card {
+        width:20rem;
+        margin:auto
+    }
+     /* works page */
+     #work_head {
+        background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/work.png');
+        background-attachment: fixed;
+        background-size:cover;
+        height:550px;
+        background-position:center center;
+      }
+     #flex-container {
+        display: block !important;
+    }
+    .work {
+        padding:10px 0px;
+        height:250px;
+        width: 100%;
+    }
+
+
+    /* styling for home page */
+    #blog_card {
+      text-align: center;
+      width:20rem !important;
+    }
+    /* blog post page */
+.blog_title {
+  font-size:20px;
+  text-align: justify;
+}
+.postBody {
+  text-align: justify;
+}
+}
+@media(max-width:768px) {
+    #welcome {
+        display: none
+    }
+    .two_lg {
+      display: none
+    } 
+    .contact_lg {
+        display:none;
+     }
+     .contact {
+        position: relative;
+        top:10px;
+    }
+    .card_img {
+        height:250px;
+    }
+    .abt_text {
+        font-size: 13px;
+    }
+    #abt_text {
+        margin-top:0px;
+      }
+      /* styling for home page */
+    #blog_card {
+      text-align: center;
+      width:auto !important;
+    }
+    /* blog post page */
+.blog_title {
+  font-size:20px;
+  text-align: justify;
+}
+.postBody {
+  text-align: justify;
+}
+}
+@media(max-width:1024px) {
+   /* styling for home page */
+   #blog_card {
+    text-align: center;
+    width:auto !important;
+  }
+  #abt_text {
+    margin-top:0;
+  }
+  /* blog post page */
+.blog_title {
+  font-size:20px;
+  text-align: justify;
+}
+.postBody {
+  text-align: justify;
+}
+}
