@@ -73,7 +73,7 @@
 
   /* about us page starts here */
   #about_head {
-    background:url('images/Vector.jpg');
+    background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/Vector.jpg');
     background-attachment: fixed;
     background-size:cover;
     height:690px;
@@ -136,6 +136,9 @@
 .job_contact {
   background: #07074C;
   text-transform: uppercase
+}
+.work {
+
 }
 
 
