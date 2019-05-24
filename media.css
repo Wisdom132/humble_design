@@ -13,17 +13,23 @@
       .home_img {
         padding-top:20px;
       }
+      #home_card {
+        max-width:20rem !important;
+      }
+      .item {
+        margin-left:5px !important;
+      }
       #welcome {
           display: none
       }
       .two_lg {
-        display: none
+        display: none !important;
       }
       .two {
         position: relative;
-        top:0px;
+        bottom:30px !important;
         left:0px;
-        font-size: 35px;
+        font-size: 35px !important;
       }
       .portfolio_rotate {
         display: none;
@@ -86,6 +92,14 @@
   text-align: justify;
 }
 }
+@media(max-width:375px) {
+  #home_card {
+    max-width:20rem !important;
+  }
+  .item {
+    margin-left:0px !important;
+  }
+}
 @media(max-width:425px) {
     #home_head {
         background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/home_head.png');
@@ -98,6 +112,12 @@
         padding-top:180px;
         font-size:30px;
       } 
+      #home_card {
+        max-width:18rem !important;
+      }
+      .item {
+        margin-left:0px !important;
+      }
       #welcome {
           display: none
       }
@@ -171,6 +191,12 @@
      .contact {
         position: relative;
         top:10px;
+    }
+    #home_card {
+      max-width:15rem !important;
+    }
+    .item {
+      margin-left:0px !important;
     }
     .card_img {
         height:250px;

@@ -161,6 +161,12 @@
 .home_para {
   text-align: justify;
 }
+#home_card {
+  width:20rem;
+}
+.item {
+  margin-left:30px !important;
+}
 .home_projectpara {
   text-align:justify !important;
 }
