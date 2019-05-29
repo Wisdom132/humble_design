@@ -1,5 +1,5 @@
 console.log('this file is working fine')
-setInterval ( "fetchapi()",5000 );
+setInterval ( "fetchapi()",8000 );
 
 function fetchapi() {
     fetch('https://favqs.com/api/qotd')
@@ -11,6 +11,6 @@ function fetchapi() {
         document.getElementById('result').innerHTML = result;
         document.getElementById('author').innerHTML = author;
 })
-.catch(error => console.error(error))
+.catch(error => console.error(error)) 
 }
 
