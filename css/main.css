@@ -9,7 +9,7 @@
     padding-left:20px !important;
 }
 #contact_head {
-    background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/black-and-white-board-boardroom-260689.jpg');
+    background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('/images/black-and-white-board-boardroom-260689.jpg');
     background-size:cover;
     background-attachment: fixed;
     height:690px;
@@ -73,7 +73,7 @@
 
   /* about us page starts here */
   #about_head {
-    background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/Vector.jpg');
+    background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('/images/Vector.jpg');
     background-attachment: fixed;
     background-size:cover;
     height:690px;
@@ -95,7 +95,7 @@
   font-size: 20px
 }
 #group16 {
-  background:url('images/Group\ 16.png');
+  background:url('/images/Group\ 16.png');
   background-size:cover;
   background-position: center center;
   height:auto;
@@ -114,7 +114,7 @@
 
 /* styling for works page */
 #work_head {
-  background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/work.png');
+  background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('/images/work.png');
   background-attachment: fixed;
   background-size:cover;
   height:690px;
@@ -144,7 +144,7 @@
 
 /* styling for home page */ 
 #home_head {
-  background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/home_head.png');
+  background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('/images/home_head.png');
   background-attachment: fixed;
   background-size:cover;
   height:690px;
