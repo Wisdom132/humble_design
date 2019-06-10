@@ -1,6 +1,6 @@
 @media(max-width: 320px) {
     #home_head {
-        background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/home_head.png');
+        background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('/images/home_head.png');
         background-attachment: fixed;
         background-size:cover;
         height:530px !important;
@@ -69,7 +69,7 @@
 
      /* contact us page */
      #contact_head {
-      background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/black-and-white-board-boardroom-260689.jpg');
+      background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('/images/black-and-white-board-boardroom-260689.jpg');
       background-size:cover;
       background-attachment: fixed;
       height:500px;
@@ -102,7 +102,7 @@
 }
 @media(max-width:425px) {
     #home_head {
-        background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/home_head.png');
+        background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('/images/home_head.png');
         background-attachment: fixed;
         background-size:cover;
         height:600px;
@@ -148,7 +148,7 @@
     }
      /* works page */
      #work_head {
-        background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('images/work.png');
+        background:linear-gradient(rgba(1, 1, 22, 0.5),rgba(1, 1, 22, 0.5)),url('/images/work.png');
         background-attachment: fixed;
         background-size:cover;
         height:550px;
